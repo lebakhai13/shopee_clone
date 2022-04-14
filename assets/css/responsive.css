@@ -1,10 +1,5 @@
 /* mobile & tablet */
 @media (max-width: 1023px) {
-    :root{
-        --header-height: 72px;
-        --nav-height: 0px;
-    }
-    
     .hide-on-tablet-mobile{
         display: none;
     }
@@ -57,6 +52,11 @@
 
 
 /* tablet */
+:root{
+    --header-height: 72px;
+    --nav-height: 0px;
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
     .hide-on-tablet{
         display: none;
@@ -65,6 +65,12 @@
 
 /* mobile */
 @media (max-width: 739px) {
+    :root{
+        --header-height: 50px;
+        --nav-height: 0px;
+    }
+    
+    
     .hide-on-mobile{
         display: none;
     }
